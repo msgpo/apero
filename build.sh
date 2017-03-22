@@ -2,7 +2,7 @@
 set -e
 
 if [ "$1" == "clean" ]; then
-  rm -rf *.o *.iso
+  rm -rf *.o *.iso *.bin
   exit
 fi
 
